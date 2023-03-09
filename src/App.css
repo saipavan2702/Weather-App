@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+.App{
+  background-size:cover;
+}
+
+.find {
+  text-align: center;
+}
+input {
+  border-radius: 12px;
+  border:2px solid black;
+  margin:10px;
+  padding: 5.5px;
+}
+::placeholder{
+  font-family: 'Nunito', sans-serif;
+}
+.place{
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  font-size: xx-large;
+}
+.Temp{
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  font-size: 1.8em;
+}
+.How{
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+.tot{
+  height: 601px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: medium;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+}
+.tot .Lo{
+  display: inline-flex;
+  justify-content: space-evenly;
+  width:50%;
+  border-radius: 12px;
+  background-color: rgb(210, 216, 222);
+  padding: 12px;
+  text-align: center;
+  margin: 1em auto;
+}
+
+
